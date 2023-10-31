@@ -1,6 +1,9 @@
 public class primenumber {
   public static void main(String args[]) {
-      int n =13 ;
+
+
+      int n = 1;
+
       int s;
       int t = 0;
       for (int i = 2; i <= n/2; i++) {
