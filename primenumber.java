@@ -1,18 +1,18 @@
 public class primenumber {
   public static void main(String args[]) {
-      int n = 5;
+      int n =11 ;
       int s;
       int t = 0;
-      for (int i = 2; i <= n; i++) {
+      for (int i = 2; i <= n/2; i++) {
           s = n % i;
           if (s == 0) {
-             t++;;
+             t=1;
           }
       }
           if (t== 0) {
-              System.out.println(n + "" + "is a prime number");
+              System.out.println(n + " " + "is a prime number");
           } else {
-              System.out.println(n + "" + "is a notprime number");
+              System.out.println(n + " " + "is  not a prime number");
           }
       }
   }
